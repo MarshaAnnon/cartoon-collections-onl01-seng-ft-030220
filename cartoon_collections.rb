@@ -6,8 +6,8 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
-    puts "#{call}.upcase !,"
-
+    puts "#{call}.upcase!,"
+    return
   end
 end
 
